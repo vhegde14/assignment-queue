@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './header/Header.js'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>Testing one more time for Git!</p>
-      </header>
-    </div>
-  );
+    return (
+        <div id="welcome-message-container">
+            <Header />
+        </div>
+    );
 }
 
 export default App;
